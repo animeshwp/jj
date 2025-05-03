@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>জীবনজয়ী</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link href="https://jj.c3bit.com/view/css/style.css" rel="stylesheet">
+	<link href="https://jj.c3bit.com/view/css/uniq.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<section class="menu-blog web">
+			<nav class="navbar navbar-dark fixed-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="https://jj.c3bit.com">
+						<img src="https://jj.c3bit.com/view/img/logo.png" alt="logo" class="img-fluid">
+					</a>
+					<div class="pc-btn">
+						<form class="d-flex mt-3 serch-btn" role="search1" style="top: 11%;">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search1">
+							<button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+						</form>
+					</div>
+
+					<div class="phon-btn">                  
+						<!-- Search Button -->
+						<button class="btn btn-success btn" type="button" onclick="toggleSearch()">
+							<i class="bi bi-search"></i>
+						</button>
+						<!-- Search Form -->
+						<form class="d-flex mt-3 serch-btn unq" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						</form>
+					</div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+						<div class="offcanvas-header" style="border-bottom: 2px solid;">
+							<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">জীবনজয়ী</h5>
+							<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/history">ইতিহাস</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/vision">দর্শন</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/religion">ধর্ম</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/sports">খেলাধূলা</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/travel">ভ্রমণ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/literature">সাহিত্য</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/fighter">মুক্তিযুদ্ধ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/world">বিশ্ব</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/economy">অর্থনীতি</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/politics">রাজনীতি</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://jj.c3bit.com/science">বিজ্ঞান</a>
+								</li>
+
+
+
+
+
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">আমাদের সর্ম্পকে</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">যোগাযোগ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#"> লিখতে চান ?</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">গোপনীয়তার নীতি</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/history">ইতিহাস</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/vision" class="active">দর্শন</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/religion">ধর্ম</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/sports">খেলাধূলা</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/travel">ভ্রমণ</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/literature">সাহিত্য</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/fighter">মুক্তিযুদ্ধ</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/world">বিশ্ব</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/economy">অর্থনীতি</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/politics">রাজনীতি</a></div>
+						<div class="swiper-slide"><a href="https://jj.c3bit.com/science">বিজ্ঞান</a></div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<div class="menu-tab">
+					<ul>
+						<li><a href="https://jj.c3bit.com/history">ইতিহাস</a></li>
+						<li><a href="https://jj.c3bit.com/vision" class="active">দর্শন</a></li>
+						<li><a href="https://jj.c3bit.com/religion">ধর্ম</a></li>
+						<li><a href="https://jj.c3bit.com/sports">খেলাধূলা</a></li>
+						<li><a href="https://jj.c3bit.com/travel">ভ্রমণ</a></li>
+						<li><a href="https://jj.c3bit.com/literature">সাহিত্য</a></li>
+						<li><a href="https://jj.c3bit.com/fighter">মুক্তিযুদ্ধ</a></li>
+						<li><a href="https://jj.c3bit.com/world">বিশ্ব</a></li>
+						<li><a href="https://jj.c3bit.com/economy">অর্থনীতি</a></li>
+						<li><a href="https://jj.c3bit.com/politics">রাজনীতি</a></li>
+						<li><a href="https://jj.c3bit.com/science">বিজ্ঞান</a></li>
+					</ul>
+				</div>
+			</nav>
+		</section>
+
+		<!-- picket -->
+		<section class="tab-details" id="hero-active">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="blog-top-bani">
+							<h1>দর্শন</h1>
+							<h4>আজকের বাণী</h4>
+							<p></p>
+							<h6></h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="adds">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<img src="https://jj.c3bit.com/adds" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="others-category">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="latest-post">
+							<h1>সর্বশেষ</h1>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="latest-post-single">
+										<img src="https://jj.c3bit.com/story/1739825395.Screenshot 2025-02-18 024810.jpg" alt="" class="img-fluid">
+										<a href="https://jj.c3bit.com/blog-details/-%86%9B%9B,%83"><h4>আসছে নতুন ছাত্রসংগঠন..</h4></a>
+										<ul>
+											<li>admin<span>|</span></li>
+											<li><i class="bi bi-calendar-week"></i> 18/02/2025</li>
+										</ul>
+										<div class="rating">
+											<h5>রাজনীতি</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="latest-post-single">
+										<img src="https://jj.c3bit.com/story/1739823633.Screenshot 2025-02-18 022003.jpg" alt="" class="img-fluid">
+										<a href="https://jj.c3bit.com/blog-details/-%9A%9C%8F%B9,%A3%A1%9C%9C%85"><h4>চার জেলার এসপি প্রত্..</h4></a>
+										<ul>
+											<li>admin<span>|</span></li>
+											<li><i class="bi bi-calendar-week"></i> 18/02/2025</li>
+										</ul>
+										<div class="rating">
+											<h5>খেলাধূলা</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="latest-post-single">
+										<img src="https://jj.c3bit.com/story/1739734138.Screenshot 2025-02-17 012821.jpg" alt="" class="img-fluid">
+										<a href="https://jj.c3bit.com/blog-details/-%9C%A3%8F%8F%B9"><h4>মজার গণিত একটি মুভি..</h4></a>
+										<ul>
+											<li>admin<span>|</span></li>
+											<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+										</ul>
+										<div class="rating">
+											<h5>ভ্রমণ</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="latest-post-single">
+										<img src="https://jj.c3bit.com/story/1739733964.Screenshot 2025-02-17 012538.jpg" alt="" class="img-fluid">
+										<a href="https://jj.c3bit.com/blog-details/-%9C%98%86%B9%98%90%B7"><h4>জাতিসংঘের প্রতিবেদনে..</h4></a>
+										<ul>
+											<li>admin<span>|</span></li>
+											<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+										</ul>
+										<div class="rating">
+											<h5>রাজনীতি</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="latest-post-single">
+										<img src="https://jj.c3bit.com/story/1739733780.Screenshot 2025-02-17 012229.jpg" alt="" class="img-fluid">
+										<a href="https://jj.c3bit.com/blog-details/-%9B%86%A3%9C%9B%B9%9A%9B%86"><h4>সভায় ছাত্রশিবিরকে আম..</h4></a>
+										<ul>
+											<li>admin<span>|</span></li>
+											<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+										</ul>
+										<div class="rating">
+											<h5>রাজনীতি</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="latest-post-single">
+										<img src="https://jj.c3bit.com/story/1739733666.Screenshot 2025-02-17 011934.jpg" alt="" class="img-fluid">
+										<a href="https://jj.c3bit.com/blog-details/-%A3%A5%80%9B"><h4>যে গণিতবিদের স্থায়ী..</h4></a>
+										<ul>
+											<li>admin<span>|</span></li>
+											<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+										</ul>
+										<div class="rating">
+											<h5>রাজনীতি</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="all-post">
+							<div class="all-post-heder">
+								<h1>সকল পোস্ট</h1>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="single-post-img"> <img src="https://jj.c3bit.com/story/1738408978.allpost4.png"  alt="image" class="img-fluid">
+									</div>
+								</div>
+								<div class="col-md-6" style="margin: auto;">
+									<div class="single-post-text">
+										<a href="https://jj.c3bit.com/blog-details/%BC%89-%86%9C-%B9:---%B9%80-%8F-%86%A3-"><h1>গিয়াসউদ্দিন-আজম-শাহ:-বাংলা-সালতানাতের-স..</h1></a>
+										<ul>
+											<li><img src="https://jj.c3bit.com/story/1738387745.user.png" alt="img" class="img-fluid">mahadi </li>
+											<li><i class="bi bi-calendar-week"></i> 06/03/2025</li>
+										</ul>
+										<a href="https://jj.c3bit.com/blog-details/%BC%89-%86%9C-%B9:---%B9%80-%8F-%86%A3-"><p><div>তাঁরা সিকান্দারের কাছে নালিশ জানায়, এভাবে লোকের কানে ফুঁস-মন্তর দিয়ে গিয়াসউদ্দিন সিংহাসন দখলের মতলব আঁটছে! সিকান্দর শাহ নিজ পুত্রদের জানিয়ে দিলেন, যদি গিয়াসউদ্দিন সিংহাসনে বসার যোগ্য হয়, তবে সে-ই.......</p></a></div>
+										<div class="rating">
+											<h5>ইতিহাস</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="single-post-img">
+										<img src="https://jj.c3bit.com/story/1738475368.blog2.png"  alt="image" class="img-fluid">
+
+									</div>
+								</div>
+								<div class="col-md-6" style="margin: auto;">
+									<div class="single-post-text">
+										<a href="https://jj.c3bit.com/blog-details/%8C-%9C-%83"><h1>মৌর্য সাম্রাজ্যের ইতিবৃত্ত</h1></a>
+										<ul>
+											<li><img src="https://jj.c3bit.com/story/1738388149.user.png" alt="img" class="img-fluid">rassel </li>
+											<li><i class="bi bi-calendar-week"></i> 02/02/2025</li>
+										</ul>
+										<a href="https://jj.c3bit.com/blog-details/%8C-%9C-%83"><p><div>তাঁরা সিকান্দারের কাছে নালিশ জানায়, এভাবে লোকের কানে ফুঁস-মন্তর দিয়ে গিয়াসউদ্দিন সিংহাসন দখলের মতলব আঁটছে! সিকান্দর শাহ নিজ পুত্রদের জানিয়ে দিলেন, যদি গিয়াসউদ্দিন সিংহাসনে বসার যোগ্য হয়, তবে সে-ই.......</p></a></div>
+										<div class="rating">
+											<h5>ইতিহাস</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="single-post-img">
+										<img src="https://jj.c3bit.com/story/1738948831.png"  alt="image" class="img-fluid">
+
+									</div>
+								</div>
+								<div class="col-md-6" style="margin: auto;">
+									<div class="single-post-text">
+										<a href="https://jj.c3bit.com/blog-details/ioipoio-ghjgj"><h1>মূলদ, অমূলদ ও বাস্তব সংখ্যা যেভাবে চিনব</h1></a>
+										<ul>
+											<li><img src="https://jj.c3bit.com/story/1738388149.user.png" alt="img" class="img-fluid">rassel </li>
+											<li><i class="bi bi-calendar-week"></i> 07/02/2025</li>
+										</ul>
+										<a href="https://jj.c3bit.com/blog-details/ioipoio-ghjgj"><p><div>গণিত আমাদের প্রতিদিনের জীবনের অংশ। গণিতে ভালো করতে হলে এর ভিত্তি মজবুত হতে হবে। ভিত্তি দুর্বল হলে গণিত দেখলে ভয় লাগে। তোমাদের গণিতভীতি দূর করতে এবং ভিত্তি মজবুত করতে ধারাবাহিকভাবে প্রকাশিত হবে ‘প.......</p></a></div>
+										<div class="rating">
+											<h5>সাহিত্য</h5>
+											<p><i class="bi bi-star-fill"></i>৩.৫</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="single-post-img">
+										<img src="https://jj.c3bit.com/story/1739732778.jpg"  alt="image" class="img-fluid">
+									</div>
+								</div>
+								<div class="col-md-6" style="margin: auto;">
+									<div class="single-post-text">
+										<a href="https://jj.c3bit.com/blog-details/%83%A5%AB%96%BC"><h1>বর্ধমান বিশ্ববিদ্যালয়ঃ ভালো থাকার ফুসমন্..</h1></a>
+										<ul>
+											<li><img src="https://jj.c3bit.com/story" alt="img" class="img-fluid">admin </li>
+											<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+										</ul>
+										<a href="https://jj.c3bit.com/blog-details/%83%A5%AB%96%BC">
+											<p>
+
+
+												<strong>জুলফা সুলতানা&nbsp;<br></strong><br>
+
+												<div>
+													<strong>গণজ্ঞাপনবিভাগ, বর্ধমান বিশ্ববিদ্যালয়&nbsp;<br></strong><br>
+												</div>
+												<div>এম.এ. ভর্তির প্রথম সারির নাম বের হওয়ার দশদিনের.......</p></a>
+												</div>
+												<div class="rating">
+													<h5>ভ্রমণ</h5>
+													<p><i class="bi bi-star-fill"></i>৩.৫</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="single-post-img">
+												<img src="https://jj.c3bit.com/story/1739731735.Screenshot 2025-02-17 004717.jpg"  alt="image" class="img-fluid">
+
+											</div>
+										</div>
+										<div class="col-md-6" style="margin: auto;">
+											<div class="single-post-text">
+												<a href="https://jj.c3bit.com/blog-details/"><h1>গুগলের পাঠানো ভূমিকম্পের সতর্কবার্তা কতট..</h1></a>
+												<ul>
+													<li><img src="https://jj.c3bit.com/story" alt="img" class="img-fluid">admin </li>
+													<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+												</ul>
+												<a href="https://jj.c3bit.com/blog-details/"><p><div>ভূমিকম্পের সময় স্থানীয় অ্যান্ড্রয়েড ব্যবহারকারীদের সতর্ক করতে ২০২০ সালে ‘অ্যান্ড্রয়েড আর্থকোয়েক অ্যালার্ট সিস্টেম’ চালু করে গুগল। যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ায় প্রথম চালু হলেও বর্তমানে বাংলাদেশস.......</p></a></div>
+												<div class="rating">
+													<h5>বিজ্ঞান</h5>
+													<p><i class="bi bi-star-fill"></i>৩.৫</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="single-post-img">
+												<img src="https://jj.c3bit.com/story/1739731957.Screenshot 2025-02-17 005023.jpg"  alt="image" class="img-fluid">
+
+											</div>
+										</div>
+										<div class="col-md-6" style="margin: auto;">
+											<div class="single-post-text">
+												<a href="https://jj.c3bit.com/blog-details/-"><h1>হোয়াটসঅ্যাপে যুক্ত হচ্ছে নতুন সুবিধা, ব..</h1></a>
+												<ul>
+													<li><img src="https://jj.c3bit.com/story" alt="img" class="img-fluid">admin </li>
+													<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+												</ul>
+												<a href="https://jj.c3bit.com/blog-details/-"><p><div>ছবি ও ভিডিও আদান-প্রদানের সুযোগ থাকায় ব্যবহারকারীদের কাছে খুবই জনপ্রিয় ইনস্টাগ্রাম। তাই অনেকেই ব্যক্তিগত বা প্রতিষ্ঠানের প্রয়োজনে নিজেদের ইনস্টাগ্রাম প্রোফাইলের লিংক অন্যদের কাছে পাঠিয়ে থাকেন। এব.......</p></a></div>
+												<div class="rating">
+													<h5>বিজ্ঞান</h5>
+													<p><i class="bi bi-star-fill"></i>৩.৫</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="single-post-img">
+												<img src="https://jj.c3bit.com/story/1739732117.Screenshot 2025-02-17 005355.jpg"  alt="image" class="img-fluid">
+
+											</div>
+										</div>
+										<div class="col-md-6" style="margin: auto;">
+											<div class="single-post-text">
+												<a href="https://jj.c3bit.com/blog-details/-"><h1>আলাদা ম্যাচে ব্রাজিল–আর্জেন্টিনা নামবে শ..</h1></a>
+												<ul>
+													<li><img src="https://jj.c3bit.com/story" alt="img" class="img-fluid">admin </li>
+													<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+												</ul>
+												<a href="https://jj.c3bit.com/blog-details/-"><p><div>আলাদা ম্যাচে ব্রাজিল–আর্জেন্টিনা নামবে শিরোপা লড়াইয়ে<em>এএফপি<br></em><figure data-trix-attachment="{&quot;contentType&quot;:&quot;image&quot;,&quot;height&quot;:414,&quot;url&quot;:&quot;https:/.......</p></a></div>
+													<div class="rating">
+														<h5>অর্থনীতি</h5>
+														<p><i class="bi bi-star-fill"></i>৩.৫</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="single-post-img">
+													<img src="https://jj.c3bit.com/story/1739733666.Screenshot 2025-02-17 011934.jpg"  alt="image" class="img-fluid">
+
+												</div>
+											</div>
+											<div class="col-md-6" style="margin: auto;">
+												<div class="single-post-text">
+													<a href="https://jj.c3bit.com/blog-details/-%A3%A5%80%9B"><h1>যে গণিতবিদের স্থায়ী ঠিকানা ছিল না</h1></a>
+													<ul>
+														<li><img src="https://jj.c3bit.com/story" alt="img" class="img-fluid">admin </li>
+														<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+													</ul>
+													<a href="https://jj.c3bit.com/blog-details/-%A3%A5%80%9B"><p>
+														<div>পল এরডশ ছিলেন একজন অসাধারণ গণিতবিদ। তিনি নিজের বিশেষ ধরনের জীবনযাপনের জন্যও বিখ্যাত ছিলেন। এক যাযাবর জীবন কাটাতেন তিনি। কোনো স্থায়ী ঠিকানা বা সম্পত্তি ছিল না তাঁর। এক বিশ্ববিদ্যালয় থেকে অন্য বিশ.......</p></a>
+														</div>
+														<div class="rating">
+															<h5>রাজনীতি</h5>
+															<p><i class="bi bi-star-fill"></i>৩.৫</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="single-post-img">
+														<img src="https://jj.c3bit.com/story/1739733780.Screenshot 2025-02-17 012229.jpg"  alt="image" class="img-fluid">
+
+													</div>
+												</div>
+												<div class="col-md-6" style="margin: auto;">
+													<div class="single-post-text">
+														<a href="https://jj.c3bit.com/blog-details/-%9B%86%A3%9C%9B%B9%9A%9B%86"><h1>সভায় ছাত্রশিবিরকে আমন্ত্রণ জানানোয় ছাত্র..</h1></a>
+														<ul>
+															<li><img src="https://jj.c3bit.com/story" alt="img" class="img-fluid">admin </li>
+															<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+														</ul>
+														<a href="https://jj.c3bit.com/blog-details/-%9B%86%A3%9C%9B%B9%9A%9B%86">
+															<p>
+															<div>আন্তর্জাতিক<br>
+
+															</p></a>
+														</div>
+															<div class="rating">
+																<h5>রাজনীতি</h5>
+																<p><i class="bi bi-star-fill"></i>৩.৫</p>
+															</div>
+														</div>
+													</div>
+												</div>
+													<div class="row">
+														<div class="col-md-6">
+															<div class="single-post-img">
+																<img src="https://jj.c3bit.com/story/1739733964.Screenshot 2025-02-17 012538.jpg"  alt="image" class="img-fluid">
+															</div>
+														</div>
+														<!-- ddd -->
+														<div class="col-md-6" style="margin: auto;">
+															<div class="single-post-text">
+																<a href="https://jj.c3bit.com/blog-details/-"><h1>জাতিসংঘের প্রতিবেদনের আলোকে সাম্প্রদায়িক..</h1></a>
+																<ul>
+																	<li><img src="https://jj.c3bit.com/story" alt="img" class="img-fluid">admin </li>
+																	<li><i class="bi bi-calendar-week"></i> 17/02/2025</li>
+																</ul>
+																<a href="https://jj.c3bit.com/blog-details/"><p>
+																	<div>
+																		<h5>রাজনীতি</h5>
+																		<p><i class="bi bi-star-fill"></i>৩.৫</p>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<!-- ddd -->
+													</div>
+													<nav>
+														<ul class="pagination">
+															<li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+																<span class="page-link" aria-hidden="true">&lsaquo;</span>
+															</li>
+															<li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+															<li class="page-item"><a class="page-link" href="https://jj.c3bit.com/vision?page=2">2</a></li>
+															<li class="page-item">
+																<a class="page-link" href="https://jj.c3bit.com/vision?page=2" rel="next" aria-label="Next &raquo;">&rsaquo;</a>
+															</li>
+														</ul>
+													</nav>
+
+
+												</div>
+											</div>
+
+											<div class="col-md-4">
+												<div class="more-reed">
+													<h1>সবচেয়ে পঠিত</h1>
+													<div class="more-reed-single">
+														<div class="row">
+															<div class="col-md-5">
+																<img src="https://jj.c3bit.com/story/1739733964.Screenshot 2025-02-17 012538.jpg" alt="" class="img-fluid">
+															</div>
+															<div class="col-md-7">
+																<a href="https://jj.c3bit.com/blog-details/-%9C%98%86%B9%98%90%B7"><p>জাতিসংঘের প্রতিবেদনের আলোকে সাম্প্রদায়িক..</p></a>
+																<ul>
+																	<li><img src="https://jj.c3bit.com/story" alt="" class="img-fluid">admin </li>
+																</ul>
+																<div class="rating">
+																	<h5>রাজনীতি</h5>
+
+																	<p><i class="bi bi-star-fill"></i>৩.৫</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="more-reed-single">
+														<div class="row">
+															<div class="col-md-5">
+																<img src="https://jj.c3bit.com/story/1738408978.allpost4.png" alt="" class="img-fluid">
+															</div>
+															<div class="col-md-7">
+																<a href="https://jj.c3bit.com/blog-details/%BC%89-%86%9C-%B9:---%B9%80-%8F-%86%A3-"><p>গিয়াসউদ্দিন-আজম-শাহ:-বাংলা-সালতানাতের-স..</p></a>
+																<ul>
+																	<li><img src="https://jj.c3bit.com/story/1738387745.user.png" alt="" class="img-fluid">mahadi </li>
+																</ul>
+																<div class="rating">
+																	<h5>ইতিহাস</h5>
+
+																	<p><i class="bi bi-star-fill"></i>৩.৫</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="more-reed-single">
+														<div class="row">
+															<div class="col-md-5">
+																<img src="https://jj.c3bit.com/story/1738475368.blog2.png" alt="" class="img-fluid">
+															</div>
+															<div class="col-md-7">
+																<a href="https://jj.c3bit.com/blog-details/%8C-%9C-%83"><p>মৌর্য সাম্রাজ্যের ইতিবৃত্ত</p></a>
+																<ul>
+																	<li><img src="https://jj.c3bit.com/story/1738388149.user.png" alt="" class="img-fluid">rassel </li>
+																</ul>
+																<div class="rating">
+																	<h5>ইতিহাস</h5>
+
+																	<p><i class="bi bi-star-fill"></i>৩.৫</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="more-reed-single">
+														<div class="row">
+															<div class="col-md-5">
+																<img src="https://jj.c3bit.com/story/1739732117.Screenshot 2025-02-17 005355.jpg" alt="" class="img-fluid">
+															</div>
+															<div class="col-md-7">
+																<a href="https://jj.c3bit.com/blog-details/"><p>আলাদা ম্যাচে ব্রাজিল–আর্জেন্টিনা নামবে শ..</p></a>
+																<ul>
+																	<li><img src="https://jj.c3bit.com/story" alt="" class="img-fluid">admin </li>
+																</ul>
+																<div class="rating">
+																	<h5>অর্থনীতি</h5>
+																	<p><i class="bi bi-star-fill"></i>৩.৫</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="more-reed-single">
+														<div class="row">
+															<div class="col-md-5">
+																<img src="https://jj.c3bit.com/story/1739731735.Screenshot 2025-02-17 004717.jpg" alt="" class="img-fluid">
+															</div>
+															<div class="col-md-7">
+																<a href="https://jj.c3bit.com/blog-details/"><p>গুগলের পাঠানো ভূমিকম্পের সতর্কবার্তা কতট..</p></a>
+																<ul>
+																	<li><img src="https://jj.c3bit.com/story" alt="" class="img-fluid">admin </li>
+																</ul>
+																<div class="rating">
+																	<h5>বিজ্ঞান</h5>
+
+																	<p><i class="bi bi-star-fill"></i>৩.৫</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="more-reed-single">
+														<div class="row">
+															<div class="col-md-5">
+																<img src="https://jj.c3bit.com/story/1739731957.Screenshot 2025-02-17 005023.jpg" alt="" class="img-fluid">
+															</div>
+															<div class="col-md-7">
+																<a href="https://jj.c3bit.com/blog-details/"><p>হোয়াটসঅ্যাপে যুক্ত হচ্ছে নতুন সুবিধা, ব..</p></a>
+																<ul>
+																	<li><img src="https://jj.c3bit.com/story" alt="" class="img-fluid">admin </li>
+																</ul>
+																<div class="rating">
+																	<h5>বিজ্ঞান</h5>
+																	<p><i class="bi bi-star-fill"></i>৩.৫</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- ads -->
+													<div class="more-reed-single">
+														<div class="row">
+															<div class="col-md-12">
+																<div class="add-blog">
+																	<img src="https://jj.c3bit.com/adds" alt="" class="img-fluid">
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- ads -->
+													<!-- Survey start -->
+													<div class="blog-jorip">
+														<div class="row">
+															<div class="col-md-12">
+																<div class="jorip">
+																	<h2>আজকের জরিপ 02</h2>
+																	<p>আপনি কোন সাহিত্যিকের কবিতা বা রচনা রোমান্টিক আন্দোলনের সঙ্গে সম্পর্কিত মনে করেন? </p>
+																	<div class="form-check">
+																		<input class="form-check-input" type="radio" name="ok" value="" id="flexCheckDefault3">
+																		<label class="form-check-label" for="flexCheckDefault3">
+																			কবি রবীন্দ্রনাথ ঠাকুর
+																		</label>
+																	</div>
+																	<div class="form-check">
+																		<input class="form-check-input" type="radio" name="ok" value="" id="flexCheckChecked4">
+																		<label class="form-check-label" for="flexCheckChecked4">
+																			কবি কালীপ্রসন্ন সিংহ
+																		</label>
+																	</div>
+																	<div class="form-check">
+																		<input class="form-check-input" type="radio" name="ok" value="" id="flexCheckChecked5">
+																		<label class="form-check-label" for="flexCheckChecked5">
+																			কবি গোবিন্দচন্দ্র দে
+																		</label>
+																	</div>
+																	<div class="form-check">
+																		<input class="form-check-input" type="radio" name="ok" value="" id="flexCheckChecked6">
+																		<label class="form-check-label" for="flexCheckChecked6">
+																			কাউকেই না 
+																		</label>
+																	</div>
+																	<button type="button" class="btn btn-primary">মতামত প্রদান</button>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- survey end -->
+												</div>
+											</div>
+										</div>
+									</div>
+		</section>
+
+
+
+<!-- statement start -->
+<section class="bani-bottom">
+	<div class="blog-top-bani">
+		<h4>আজকের বাণী</h4>
+		<p></p>
+		<h6></h6>
+	</div>
+</section>
+<!-- statement end -->
+<!-- notive start -->
+<section class="nutish">
+	<div class="container">
+		<div class="row">
+			<div class="ticker-wrapper-h">
+				<div class="heading">বিভাগের নোটিশ :</div>
+
+				<ul class="news-ticker-h">
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- notice end -->
+<!-- footer start -->
+<section class="footer">
+	<p>সর্বস্বত্ব সংরক্ষিত © 2025 জীবনজয়ী</p>
+</section>
+<!-- footer end -->
+
+</div>
+<script>
+	function toggleSearch() {
+		let searchForm = document.querySelector(".serch-btn.unq");
+		searchForm.classList.toggle("show");
+	}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+	var swiper = new Swiper(".mySwiper", {
+		slidesPerView: 5,
+		spaceBetween: 5,
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+		breakpoints: {
+			640: {
+				slidesPerView: 5,
+				spaceBetween: 5,
+			},
+			768: {
+				slidesPerView: 5,
+				spaceBetween: 5,
+			},
+			1024: {
+				slidesPerView: 11,
+				spaceBetween: 10,
+			},
+		},
+	});
+</script>
+</body>
+</html>
